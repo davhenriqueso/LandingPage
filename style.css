@@ -384,6 +384,7 @@ header {
     transition: all cubic-bezier(0.23, 1, 0.320, 1) .75s;
     width: 450px;
     mix-blend-mode: screen;
+    cursor:pointer;
 }
 
 .vinyls img:hover {
