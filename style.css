@@ -413,55 +413,6 @@ header {
     margin: auto;
 }
 
-/*CALL TO ACTION*/
-
-.cta {
-    margin: 90px auto 110px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 14px;
-    padding: 0 20px;
-}
-
-.ctatitle {
-    color: #fff;
-    mix-blend-mode: difference;
-    font-size: clamp(26px, 4vw, 52px);
-    font-weight: 800;
-    letter-spacing: 2px;
-}
-
-.ctatext {
-    color: #fff;
-    mix-blend-mode: difference;
-    font-size: clamp(13px, 1.3vw, 17px);
-    font-weight: 400;
-    opacity: 0.75;
-}
-
-.ctabtn {
-    margin-top: 14px;
-    display: inline-block;
-    background-color: #DD0B38;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding: 16px 44px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-.ctabtn:hover {
-    background-color: #c40a31;
-    transform: scale(1.06);
-    box-shadow: 0 0 30px rgba(221, 11, 56, 0.45);
-}
-
 /*RODAPE*/
 
 .footer {
